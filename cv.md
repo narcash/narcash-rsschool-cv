@@ -5,5 +5,5 @@
 #### <pre>code example: 
 #### <code>function calc = (a, b) => {a + b};
 ####        let calc(1, 2)</code>
-####</pre>
+#### </pre>
 #### уровень английского - А2
