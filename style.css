@@ -1,4 +1,100 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
+
+*{
+    margin: auto 25px;
+}
+body {
+    border-color: #f1f1f1;
+    color: #0f141e;
+
+    font-family: 'Courier New', Courier, monospace , sans-serif;
+}
+a {
     color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: rgb(22, 22, 22);
+}
+
+.avatar {
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+.logoRs {
+    width: 80px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    width: 25px; 
+     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+     border-radius: 50%;
+ } 
+.info p {
+    color: #232425;
+    margin: 10px 15px;
+    padding-left: 9px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container {
+    padding-top: 10px;
+    max-width: 750px;
+    min-width: 700px;
+    margin: auto;
+}
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #dcfccd;    
+}
+.bg-aliceblue {
+    background:aliceblue;    
+}
+.bg-red {
+    background: #ffe5e5;    
+}
+.bg-grey {
+    background: rgba(252, 251, 251, 0.918);
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card h2 {
+    margin-top: 10px;
+}
+.list {
+    padding: 0px 20px;
+}
+.list li {
+    color:#86898f;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
