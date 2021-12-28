@@ -1,2 +1,2 @@
-# narcash-rsschool-cv
+# rsschool-cv
 https://narcash.github.io/rsschool-cv/
